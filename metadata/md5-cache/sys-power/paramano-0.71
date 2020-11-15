@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install
+DEPEND=x11-libs/gtk+:2
+DESCRIPTION=Docking battery monitor and CPU governor controller, forked from trayfreq
+EAPI=7
+HOMEPAGE=https://gitlab.com/dphillips/paramano
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=GPL-3
+RDEPEND=x11-libs/gtk+:2 app-admin/sudo
+SLOT=0
+SRC_URI=https://gitlab.com/dphillips/paramano/-/archive/0.71/paramano-0.71.tar.bz2
+_md5_=e1d8396d16ad3953283a6a44be9cfa71
