@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=>=net-libs/nodejs-4.0[npm]
+DESCRIPTION=A cross-platform tool to fabulously kill processes
+EAPI=7
+HOMEPAGE=https://github.com/sindresorhus/fkill-cli
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=>=net-libs/nodejs-4.0[npm]
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=b8afadf2936ed446e241d8c27dba858e
