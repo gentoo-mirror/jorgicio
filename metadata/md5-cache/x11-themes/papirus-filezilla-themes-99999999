@@ -1,0 +1,11 @@
+DEFINED_PHASES=unpack
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Papirus icon themes for Filezilla
+EAPI=6
+HOMEPAGE=https://github.com/PapirusDevelopmentTeam/papirus-filezilla-themes
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=net-ftp/filezilla
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=05ad36eea72f364d078ce8d3f6e7f944
