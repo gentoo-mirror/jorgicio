@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst
+DEPEND=elibc_glibc? ( sys-libs/glibc ) elibc_musl? ( sys-libs/musl )
+DESCRIPTION=The cross-shell prompt for astronauts (binary version)
+EAPI=7
+HOMEPAGE=https://starship.rs
+IUSE=elibc_glibc elibc_musl libressl
+KEYWORDS=-* ~amd64
+LICENSE=ISC
+RDEPEND=elibc_glibc? ( sys-libs/glibc ) elibc_musl? ( sys-libs/musl ) !app-shells/starship libressl? ( dev-libs/libressl:0 ) !libressl? ( dev-libs/openssl:0 ) sys-libs/zlib
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=elibc_glibc? ( https://github.com/starship/starship/releases/download/v0.43.0/starship-x86_64-unknown-linux-gnu.tar.gz -> starship-0.43.0-x86_64-glibc.tar.gz ) elibc_musl? ( https://github.com/starship/starship/releases/download/v0.43.0/starship-x86_64-unknown-linux-musl.tar.gz -> starship-0.43.0-x86_64-musl.tar.gz )
+_md5_=93d52ff099201150346374b2c4979285
