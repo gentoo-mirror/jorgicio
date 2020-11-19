@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=x11-libs/gtk+:3 x11-themes/gtk-engines x11-themes/gtk-engines-murrine
+DESCRIPTION=A flat Material Design theme for GTK
+EAPI=7
+HOMEPAGE=https://github.com/vinceliuice/vimix-gtk-themes
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=x11-libs/gtk+:3 x11-themes/gtk-engines x11-themes/gtk-engines-murrine
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=9f698c7e1c81616a44f50ea0dad90ca5
