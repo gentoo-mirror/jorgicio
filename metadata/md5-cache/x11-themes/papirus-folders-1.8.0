@@ -1,0 +1,10 @@
+DEFINED_PHASES=prepare prerm
+DESCRIPTION=Allows to change the color of folders for Papirus Icon Theme
+EAPI=7
+HOMEPAGE=https://git.io/papirus-folders
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=x11-themes/papirus-icon-theme
+SLOT=0
+SRC_URI=https://github.com/PapirusDevelopmentTeam/papirus-folders/archive/v1.8.0.tar.gz -> papirus-folders-1.8.0.tar.gz
+_md5_=f0a78732173a8811d12d2e6732a06319
