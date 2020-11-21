@@ -1,0 +1,11 @@
+DEFINED_PHASES=install prepare
+DEPEND=x11-themes/gtk-engines-flat
+DESCRIPTION=A flat light theme with a modern look
+EAPI=7
+HOMEPAGE=https://www.opendesktop.org/p/1099856 https://github.com/EliverLara/Ant
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=x11-themes/gtk-engines-flat
+SLOT=0
+SRC_URI=https://github.com/EliverLara/Ant/archive/v1.3.0.tar.gz -> ant-gtk-theme-1.3.0.tar.gz
+_md5_=b26715206e10db676ec9c42c9557e1b3
