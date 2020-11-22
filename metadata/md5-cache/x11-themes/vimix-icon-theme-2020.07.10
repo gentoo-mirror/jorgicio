@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst postrm
+DEPEND=x11-themes/hicolor-icon-theme
+DESCRIPTION=A Material Design icon theme based on Paper Icon Theme
+EAPI=7
+HOMEPAGE=https://github.com/vinceliuice/vimix-icon-theme
+KEYWORDS=~amd64 ~x86
+LICENSE=CC-BY-SA-4.0
+RDEPEND=x11-themes/hicolor-icon-theme
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/vinceliuice/vimix-icon-theme/archive/2020-07-10.tar.gz -> vimix-icon-theme-2020-07-10.tar.gz
+_eclasses_=xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=ef43740f273b4d44a78a711a99efa441
