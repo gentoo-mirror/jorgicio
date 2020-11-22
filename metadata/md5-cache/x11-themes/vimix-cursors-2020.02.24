@@ -1,0 +1,11 @@
+BDEPEND=media-gfx/inkscape x11-apps/xcursorgen
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=X cursor theme inspired by Material Design
+EAPI=7
+HOMEPAGE=https://github.com/vinceliuice/vimix-cursors
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/vinceliuice/vimix-cursors/archive/2020-02-24.tar.gz -> Vimix-cursors-2020-02-24.tar.gz
+_md5_=534af1e67e5992141560848226c126c9
