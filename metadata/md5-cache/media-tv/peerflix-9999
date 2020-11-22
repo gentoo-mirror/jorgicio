@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DEPEND=net-libs/nodejs[npm] >=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Streaming torrent client for node.js
+EAPI=6
+HOMEPAGE=https://github.com/mafintosh/peerflix
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=net-libs/nodejs[npm]
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=63b58473c6c1d32bc67f7cbbe8efe7e2
