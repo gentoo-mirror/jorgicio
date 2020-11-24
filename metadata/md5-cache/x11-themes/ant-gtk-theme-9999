@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare unpack
+DEPEND=x11-themes/gtk-engines-flat
+DESCRIPTION=A flat light theme with a modern look
+EAPI=7
+HOMEPAGE=https://www.opendesktop.org/p/1099856 https://github.com/EliverLara/Ant
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=x11-themes/gtk-engines-flat
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=b26715206e10db676ec9c42c9557e1b3
