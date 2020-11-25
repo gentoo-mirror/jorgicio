@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install
+DEPEND=dev-qt/qtcore:5 dev-qt/qtmultimedia:5
+DESCRIPTION=Hsiu-Ming graphical shutdown timer
+EAPI=7
+HOMEPAGE=https://cges30901.github.io/hmtimer-website
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-qt/qtcore:5 dev-qt/qtmultimedia:5 x11-themes/hicolor-icon-theme
+SLOT=0
+SRC_URI=https://github.com/cges30901/hmtimer/releases/download/v3.1.0/hmtimer-3.1.0-src.tar.bz2
+_eclasses_=estack	686eaab303305a908fd57b2fd7617800	multilib	98584e405e2b0264d37e8f728327fed1	qmake-utils	4eb5e05ef7ee630c003e3f0edc094135	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=fafbab8c6e77ddf57218767e5b25ea6f
