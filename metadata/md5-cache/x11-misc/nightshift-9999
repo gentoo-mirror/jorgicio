@@ -1,0 +1,12 @@
+BDEPEND=|| ( dev-lang/python:3.7 dev-lang/python:3.6 ) dev-util/auto-auto-complete >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=setup unpack
+DEPEND=x11-misc/redshift app-arch/zip
+DESCRIPTION=A terminal user interface for redshift
+EAPI=7
+HOMEPAGE=https://github.com/maandree/nightshift
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=x11-misc/redshift app-arch/zip
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	98584e405e2b0264d37e8f728327fed1	python-any-r1	54a3178500786b0a7ede4a23b7f2a6ad	python-utils-r1	e41e32d357e5bdd388b5be2ce24f3883	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=3c93e84cc479fb9cc2fbcf5d34ef628b
