@@ -1,0 +1,15 @@
+BDEPEND=dev-util/ninja dev-util/cmake
+DEFINED_PHASES=compile configure install postinst prepare test unpack
+DEPEND=media-libs/glew:= sys-libs/zlib:= virtual/opengl libglvnd? ( media-libs/libglvnd[X] ) qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtmultimedia:5 dev-qt/qtopengl:5 dev-qt/qtwidgets:5 ) sdl? ( media-libs/libsdl2 ) system-ffmpeg? ( media-video/ffmpeg:= ) system-libzip? ( dev-libs/libzip:= ) system-snappy? ( app-arch/snappy:= )
+DESCRIPTION=A PSP emulator written in C++
+EAPI=7
+HOMEPAGE=https://www.ppsspp.org/
+IUSE=discord-presence headless +libglvnd qt5 sdl +system-ffmpeg +system-libzip +system-snappy
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/glew:= sys-libs/zlib:= virtual/opengl libglvnd? ( media-libs/libglvnd[X] ) qt5? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtmultimedia:5 dev-qt/qtopengl:5 dev-qt/qtwidgets:5 ) sdl? ( media-libs/libsdl2 ) system-ffmpeg? ( media-video/ffmpeg:= ) system-libzip? ( dev-libs/libzip:= ) system-snappy? ( app-arch/snappy:= )
+REQUIRED_USE=^^ ( qt5 sdl )
+SLOT=0
+SRC_URI=https://github.com/hrydgard/ppsspp/archive/v1.10.3.tar.gz -> ppsspp-1.10.3.tar.gz !system-ffmpeg? ( https://github.com/hrydgard/ppsspp-ffmpeg/archive/55147e5f33f5ae4904f75ec082af809267122b94.tar.gz -> ppsspp-1.10.3-ffmpeg.tar.gz ) https://github.com/hrydgard/ppsspp-lang/archive/1c64b8fbd3cb6bd87935eb53f302f7de6f86e209.tar.gz -> ppsspp-1.10.3-assets_lang.tar.gz https://github.com/hrydgard/pspautotests/archive/328b839c7243e7f733f9eae88d059485e3d808e7.tar.gz -> ppsspp-1.10.3-pspautotests.tar.gz https://github.com/hrydgard/minidx9/archive/7751cf73f5c06f1be21f5f31c3e2d9a7bacd3a93.tar.gz -> ppsspp-1.10.3-dx9sdk.tar.gz https://github.com/hrydgard/glslang/archive/d0850f875ec392a130ccf00018dab458b546f27c.tar.gz -> ppsspp-1.10.3-ext_glslang.tar.gz https://github.com/Kingcom/armips/archive/7885552b208493a6a0f21663770c446c3ba65576.tar.gz -> ppsspp-1.10.3-ext_armips.tar.gz https://github.com/Kingcom/tinyformat/archive/e2eb06339c21d15db13cd8aa44a4b287970124f4.tar.gz -> ppsspp-1.10.3-ext_armips_ext_tinyformat.tar.gz https://github.com/KhronosGroup/SPIRV-Cross/archive/a1f7c8dc8ea2f94443951ee27003bffa562c1f13.tar.gz -> ppsspp-1.10.3-ext_SPIRV-Cross.tar.gz https://github.com/Tencent/rapidjson/archive/73063f5002612c6bf64fe24f851cd5cc0d83eef9.tar.gz -> ppsspp-1.10.3-ext_rapidjson.tar.gz https://github.com/discordapp/discord-rpc/archive/3d3ae7129d17643bc706da0a2eea85aafd10ab3a.tar.gz -> ppsspp-1.10.3-ext_discord-rpc.tar.gz
+_eclasses_=cmake	ac7cb516f6a288b6a82bc0649ce49878	desktop	7fd20552ce4cc97e8acb132a499a7dd8	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	l10n	8cdd85e169b835d518bc2fd59f780d8e	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	wrapper	4251d4c84c25f59094fd557e0063a974	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=9a723a833e0d0156730e1ead505867f5
