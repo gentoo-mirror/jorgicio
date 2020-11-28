@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=A pretty simple icon theme, derived from Ultra-Flat-Icons, Paper and Flattr
+EAPI=7
+HOMEPAGE=https://drasite.com/flat-remix
+IUSE=dark light
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=GPL-3
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/daniruiz/Flat-Remix/archive/20200511.tar.gz -> flat-remix-icon-theme-20200511.tar.gz
+_md5_=a7d522c6462d3ad1660bb6534544755e
