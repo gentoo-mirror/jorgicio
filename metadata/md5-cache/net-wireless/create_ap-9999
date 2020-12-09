@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst unpack
+DEPEND=net-wireless/hostapd net-misc/bridge-utils || ( net-misc/dhcp net-misc/dhcpcd net-misc/pump ) net-dns/dnsmasq net-firewall/iptables sys-apps/iproute2 sys-apps/util-linux net-wireless/iw systemd? ( sys-apps/systemd ) haveged? ( sys-apps/haveged ) >=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=Tool for creating an access point for sharing wireless network
+EAPI=6
+HOMEPAGE=https://github.com/oblique/create_ap
+IUSE=haveged systemd
+LICENSE=LGPL-3
+PROPERTIES=live
+RDEPEND=net-wireless/hostapd net-misc/bridge-utils || ( net-misc/dhcp net-misc/dhcpcd net-misc/pump ) net-dns/dnsmasq net-firewall/iptables sys-apps/iproute2 sys-apps/util-linux net-wireless/iw
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=d39e65e5bd3e512c8fcce997806b8a84
