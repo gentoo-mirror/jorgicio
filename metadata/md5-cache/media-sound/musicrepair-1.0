@@ -1,0 +1,13 @@
+BDEPEND=>=dev-lang/go-1.10
+DEFINED_PHASES=compile install test unpack
+DEPEND=>=dev-lang/go-1.12 dev-go/go-net dev-go/go-text
+DESCRIPTION=Fixes music metadata and adds album art
+EAPI=7
+HOMEPAGE=https://github.com/kalbhor/MusicRepair
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=MIT
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/kalbhor/MusicRepair/archive/v1.0.tar.gz -> musicrepair-1.0.tar.gz https://github.com/bogem/id3v2/archive/v1.1.1.tar.gz -> github.com-bogem-id3v2-v1.1.1.tar.gz https://github.com/headzoo/surf/archive/v1.0.0.tar.gz -> github.com-headzoo-surf-v1.0.0.tar.gz https://github.com/zmb3/spotify/archive/869e03dbd8b0.tar.gz -> github.com-zmb3-spotify-869e03dbd8b0.tar.gz https://github.com/golang/oauth2/archive/5d9234df094c.tar.gz -> github.com-golang-oauth2-5d9234df094c.tar.gz
+_eclasses_=golang-base	c57d2c3f9e1a02d0feb8b87c7b689892	golang-build	dc25bafa8fc1305a4de66a0a448472e7	golang-vcs-snapshot	4a615ccf588f8bc48d956500949af39e
+_md5_=768879cbe0890dfca57802d5baacda65
