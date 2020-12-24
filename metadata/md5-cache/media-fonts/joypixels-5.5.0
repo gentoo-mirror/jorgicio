@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst postrm prepare setup unpack
+DEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DESCRIPTION=Emoji as a Service (formerly EmojiOne)
+EAPI=7
+HOMEPAGE=https://www.joypixels.com
+IUSE=X
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=JoyPixels
+SLOT=0
+SRC_URI=https://cdn.joypixels.com/arch-linux/font/5.5.0/joypixels-android.ttf -> joypixels-5.5.0.ttf
+_eclasses_=font	e052246186f22bd6a37797238374613b
+_md5_=71f4d9b592c4bfbbed7c235c73a3c32c
