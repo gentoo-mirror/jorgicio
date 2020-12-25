@@ -1,0 +1,12 @@
+BDEPEND=|| ( dev-lang/ruby:2.6 dev-lang/ruby:2.5 ) virtual/rubygems >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst unpack
+DEPEND=media-gfx/imagemagick
+DESCRIPTION=Seriously Instant Screen-Grabbing
+EAPI=7
+HOMEPAGE=https://gyazo.com
+LICENSE=GPL-2+
+PROPERTIES=live
+RDEPEND=media-gfx/imagemagick x11-misc/xclip
+SLOT=0
+_eclasses_=desktop	8f9bfcc33705104f56748d9dedb3177a	git-r3	3e7ec3d6619213460c85e2aa48398441	ruby-single	e6530f43a549f120f9396ccb852288f5	ruby-utils	927b40774937983813d360c726615e54
+_md5_=cf290cfa328b376dab4511d70990e702
