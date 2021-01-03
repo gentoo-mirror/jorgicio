@@ -1,0 +1,13 @@
+BDEPEND=app-arch/unzip
+DEFINED_PHASES=install postinst postrm setup unpack
+DEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DESCRIPTION=Customized version of Apple's Menlo font.
+EAPI=7
+HOMEPAGE=https://github.com/andreberg/Meslo-Font
+IUSE=dotted-zero X
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=Apache-2.0
+SLOT=0
+SRC_URI=dotted-zero? ( https://raw.githubusercontent.com/andreberg/Meslo-Font/master/dist/v1.2.1/Meslo%20LG%20DZ%20v1.2.1.zip -> meslo-1.2.1-DZ.zip ) !dotted-zero? ( https://raw.githubusercontent.com/andreberg/Meslo-Font/master/dist/v1.2.1/Meslo%20LG%20v1.2.1.zip -> meslo-1.2.1.zip )
+_eclasses_=font	dd073b36fe3fd8b868c23bc23209db45
+_md5_=bcc0fd6278893f3e8cce828e4e0d2b69
