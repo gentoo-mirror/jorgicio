@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst prepare unpack
+DEPEND=sys-apps/net-tools systemd? ( sys-apps/systemd )
+DESCRIPTION=Propietary VPN client for Linux
+EAPI=7
+HOMEPAGE=https://expressvpn.com
+IUSE=systemd
+KEYWORDS=~amd64 ~arm ~x86
+LICENSE=ExpressVPN
+RDEPEND=sys-apps/net-tools systemd? ( sys-apps/systemd )
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=amd64? ( https://download.expressvpn.xyz/clients/linux/expressvpn_2.6.4.5-1_amd64.deb ) arm? ( https://download.expressvpn.xyz/clients/linux/expressvpn_2.6.4.5-1_armhf.deb ) x86? ( https://download.expressvpn.xyz/clients/linux/expressvpn_2.6.4.5-1_i386.deb )
+_eclasses_=bash-completion-r1	be99724bde4274de21e581204e9d164a	desktop	7fd20552ce4cc97e8acb132a499a7dd8	multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	766e423a01cee6c7fbdd2229621aaa0e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	unpacker	45b49db67094fdafbb6a16a2299e894b
+_md5_=179db57319c8443c4e0b550cd82df8c7
