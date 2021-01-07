@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=media-tv/kodi
+DESCRIPTION=YouTube addon for Kodi
+EAPI=7
+HOMEPAGE=https://github.com/jdf76/plugin.video.youtube
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=media-tv/kodi
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=f3c413a1686fb415a67cd6cf7a505985
