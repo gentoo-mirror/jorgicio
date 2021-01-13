@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst postrm
+DEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
+DESCRIPTION=vim plugin: Base16 schemes for Vim
+EAPI=7
+HOMEPAGE=https://github.com/chriskempson/base16-vim
+KEYWORDS=~alpha ~amd64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~sparc ~x86 ~amd64-linux ~x86-linux ~x64-macos ~x86-macos
+LICENSE=vim vim.org public-domain MIT
+RDEPEND=|| ( >=app-editors/vim-7.3 >=app-editors/gvim-7.3 )
+SLOT=0
+SRC_URI=https://github.com/chriskempson/base16-vim/archive/6191622d5806d4448fa2285047936bdcee57a098.tar.gz -> base16-vim-0_p20190607.tar.gz
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	vim-doc	dd0828b15877b2a09c07f4719e45891f	vim-plugin	3160d9cb05ef44497be1485db0fe7590
+_md5_=f98928b30e0ad9ed94140cddac38edde
