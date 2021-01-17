@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst postrm preinst
+DEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5[png] dev-qt/qtnetwork:5[ssl] dev-qt/qtmultimedia:5 dev-qt/qtopengl:5 dev-qt/qtwidgets:5 frei0r? ( media-plugins/frei0r-plugins ) media-video/ffmpeg[vaapi?,vdpau?,wavpack] virtual/opengl virtual/pkgconfig
+DESCRIPTION=Professional open-source non-linear video editor
+EAPI=7
+HOMEPAGE=https://github.com/olive-editor/olive
+IUSE=frei0r vaapi vdpau
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-qt/qtcore:5 dev-qt/qtgui:5[png] dev-qt/qtnetwork:5[ssl] dev-qt/qtmultimedia:5 dev-qt/qtopengl:5 dev-qt/qtwidgets:5 frei0r? ( media-plugins/frei0r-plugins ) media-video/ffmpeg[vaapi?,vdpau?,wavpack] virtual/opengl
+SLOT=0
+SRC_URI=https://github.com/olive-editor/olive/archive/0.1.1.tar.gz -> olive-0.1.1.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	gnome2-utils	c8e3fff820d850c0e003e22208d2eea3	l10n	8cdd85e169b835d518bc2fd59f780d8e	multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e	wrapper	4251d4c84c25f59094fd557e0063a974	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=ebdb1fa7df5b7a6e9789af0861e55e14
