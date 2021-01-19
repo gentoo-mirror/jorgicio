@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst postrm preinst prepare setup unpack
+DEPEND=python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) >=x11-libs/gtk+-3.0:3[introspection] python_single_target_python3_8? ( dev-python/pygobject:3[cairo,python_targets_python3_8(-)] ) >=media-libs/mlt-6.18.0[python,ffmpeg,gtk,python_single_target_python3_8(-)?] python_single_target_python3_8? ( dev-python/dbus-python[python_targets_python3_8(-)] ) media-plugins/frei0r-plugins media-plugins/swh-plugins python_single_target_python3_8? ( dev-python/numpy[python_targets_python3_8(-)] ) python_single_target_python3_8? ( dev-python/pillow:0[python_targets_python3_8(-)] ) gnome-base/librsvg:2= media-gfx/gmic[ffmpeg,X] dev-libs/glib:2[dbus] x11-libs/pango[introspection] x11-libs/gdk-pixbuf:2[introspection] media-video/ffmpeg dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=A multitrack non-linear video editor
+EAPI=7
+HOMEPAGE=https://github.com/jliljebl/flowblade
+IUSE=+python_single_target_python3_8
+LICENSE=LGPL-3
+PROPERTIES=live
+RDEPEND=python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) >=x11-libs/gtk+-3.0:3[introspection] python_single_target_python3_8? ( dev-python/pygobject:3[cairo,python_targets_python3_8(-)] ) >=media-libs/mlt-6.18.0[python,ffmpeg,gtk,python_single_target_python3_8(-)?] python_single_target_python3_8? ( dev-python/dbus-python[python_targets_python3_8(-)] ) media-plugins/frei0r-plugins media-plugins/swh-plugins python_single_target_python3_8? ( dev-python/numpy[python_targets_python3_8(-)] ) python_single_target_python3_8? ( dev-python/pillow:0[python_targets_python3_8(-)] ) gnome-base/librsvg:2= media-gfx/gmic[ffmpeg,X] dev-libs/glib:2[dbus] x11-libs/pango[introspection] x11-libs/gdk-pixbuf:2[introspection] media-video/ffmpeg
+SLOT=0
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	python-single-r1	d3100de905f978df912135806cf27188	python-utils-r1	65bb60d137e5a51f58ada69bf3f366da	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=b94cdb760ebd334b149797db3cb0c96e
