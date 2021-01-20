@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst postrm preinst prepare
+DEPEND=dev-qt/qtsvg:5 dev-qt/qtwebkit:5 dev-qt/qtxmlpatterns:5 media-libs/libsdl2[X,opengl?,sound,video,joystick?] net-misc/rsync x11-apps/xwininfo arcade? ( dev-qt/qtdeclarative:5 ) multimedia? ( dev-qt/qtmultimedia:5 ) opengl? ( dev-qt/qtopengl:5 ) phonon? ( media-libs/phonon ) tools? ( dev-qt/qtscript:5 ) zlib? ( sys-libs/zlib[minizip?] ) dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=Qt-based UNIX MAME frontend supporting SDLMAME
+EAPI=7
+HOMEPAGE=https://qmc2.batcom-it.net
+IUSE=debug +arcade joystick +multimedia opengl phonon +minizip +zlib tools
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=dev-qt/qtsvg:5 dev-qt/qtwebkit:5 dev-qt/qtxmlpatterns:5 media-libs/libsdl2[X,opengl?,sound,video,joystick?] net-misc/rsync x11-apps/xwininfo arcade? ( dev-qt/qtdeclarative:5 ) multimedia? ( dev-qt/qtmultimedia:5 ) opengl? ( dev-qt/qtopengl:5 ) phonon? ( media-libs/phonon ) tools? ( dev-qt/qtscript:5 ) zlib? ( sys-libs/zlib[minizip?] ) >=games-emulation/sdlmame-0.195[tools=]
+REQUIRED_USE=phonon? ( !multimedia )
+SLOT=0
+SRC_URI=mirror://sourceforge/qmc2/qmc2-0.195.tar.bz2
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e	wrapper	4251d4c84c25f59094fd557e0063a974	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=ab7b49d7536186ac4bc23ab6fc8d3611
