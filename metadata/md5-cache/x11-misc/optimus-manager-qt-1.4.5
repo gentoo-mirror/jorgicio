@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install postinst postrm preinst prepare unpack
+DEPEND=dev-qt/qtcore:5 dev-qt/qtx11extras:5 plasma? ( kde-plasma/plasma-desktop:5 kde-frameworks/knotifications:5 kde-frameworks/kiconthemes:5 ) dev-qt/linguist-tools:5 dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=Qt-based interface for Optimus Manager
+EAPI=7
+HOMEPAGE=https://github.com/Shatur95/optimus-manager-qt
+IUSE=plasma
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-qt/qtcore:5 dev-qt/qtx11extras:5 plasma? ( kde-plasma/plasma-desktop:5 kde-frameworks/knotifications:5 kde-frameworks/kiconthemes:5 ) >=x11-misc/optimus-manager-1.2.2
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/Shatur95/optimus-manager-qt/archive/1.4.5.tar.gz -> optimus-manager-qt-1.4.5.tar.gz https://github.com/itay-grudev/SingleApplication/archive/3.0.18.tar.gz -> singleapplication-3.0.18.tar.gz
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=0ee253c4eb7765fcf6003834c72e4c85
