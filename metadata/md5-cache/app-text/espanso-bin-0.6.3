@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst prepare
+DESCRIPTION=Cross-platform text expander written in Rust (binary version)
+EAPI=7
+HOMEPAGE=https://espanso.org
+IUSE=systemd
+KEYWORDS=-* ~amd64
+LICENSE=GPL-3
+RDEPEND=!app-text/espanso x11-libs/libnotify x11-libs/libXtst x11-misc/xclip x11-misc/xdotool systemd? ( sys-apps/systemd )
+SLOT=0
+SRC_URI=https://github.com/federico-terzi/espanso/releases/download/v0.6.3/espanso-linux.tar.gz -> espanso-bin-0.6.3.tar.gz systemd? ( https://raw.githubusercontent.com/federico-terzi/espanso/v0.6.3/src/res/linux/systemd.service -> espanso-0.6.3.service )
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	systemd	74b223e42834adf09a2d21fe5fe13741	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e
+_md5_=7febf2358824cad43cfaea1616664cd4
