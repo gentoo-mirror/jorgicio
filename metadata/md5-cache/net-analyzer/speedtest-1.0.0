@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Speedtest CLI by Ookla
+EAPI=7
+HOMEPAGE=https://speedtest.net
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=Ookla
+RDEPEND=!net-analyzer/speedtest-cli
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=amd64? ( https://ookla.bintray.com/download/ookla-speedtest-1.0.0-x86_64-linux.tgz ) arm? ( https://ookla.bintray.com/download/ookla-speedtest-1.0.0-arm-linux.tgz ) arm64? ( https://ookla.bintray.com/download/ookla-speedtest-1.0.0-aarch64-linux.tgz ) x86? ( https://ookla.bintray.com/download/ookla-speedtest-1.0.0-i386-linux.tgz )
+_md5_=31971cdc053a9068b8a295d6d8cbc633
