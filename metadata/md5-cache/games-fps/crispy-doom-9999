@@ -1,0 +1,12 @@
+BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare setup unpack
+DEPEND=|| ( dev-lang/python:3.8 dev-lang/python:3.7 ) media-libs/libpng:0 media-libs/sdl2-mixer[vorbis] media-libs/sdl2-net media-libs/libsamplerate[sndfile]
+DESCRIPTION=Vanilla-compatible enhanced Doom engine, forked from Chocolate Doom
+EAPI=7
+HOMEPAGE=http://fabiangreffrath.github.io/crispy-doom
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=|| ( dev-lang/python:3.8 dev-lang/python:3.7 ) media-libs/libpng:0 media-libs/sdl2-mixer[vorbis] media-libs/sdl2-net media-libs/libsamplerate[sndfile]
+SLOT=0
+_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	desktop	7fd20552ce4cc97e8acb132a499a7dd8	git-r3	3e7ec3d6619213460c85e2aa48398441	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	python-any-r1	f630b6d8702353cdc13f2d4dd882e16e	python-utils-r1	65bb60d137e5a51f58ada69bf3f366da	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e
+_md5_=fd3d73946688a1386ae13afa076c561d
