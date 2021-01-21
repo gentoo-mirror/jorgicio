@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install postinst postrm unpack
+DEPEND=dev-qt/qtmultimedia:5[alsa,pulseaudio?,gstreamer] dev-qt/qtx11extras:5
+DESCRIPTION=Cross-platform open source music player built with Qt5, QTav and Taglib.
+EAPI=7
+HOMEPAGE=https://github.com/MBach/Miam-Player
+IUSE=pulseaudio
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=dev-qt/qtmultimedia:5[alsa,pulseaudio?,gstreamer] dev-qt/qtx11extras:5 media-libs/taglib media-libs/qtav:0/1[pulseaudio?]
+SLOT=0
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=eaffa91a33a1d13c864c6832253f17cf
