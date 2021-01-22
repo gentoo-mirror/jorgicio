@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure prepare
+DEPEND=dev-lang/mono virtual/pkgconfig
+DESCRIPTION=Taglib# 2.0 - Managed tag reader/writer
+EAPI=7
+HOMEPAGE=https://github.com/mono/taglib-sharp
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=LGPL-2.1
+RDEPEND=dev-lang/mono
+SLOT=0
+SRC_URI=https://github.com/mono/taglib-sharp/archive/taglib-sharp-2.1.0.0.tar.gz
+_eclasses_=mono	6b9c26a7a64b4530f483c30a494ac0a1	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e
+_md5_=1542e78b5edf7e391e989374c2baa99c
