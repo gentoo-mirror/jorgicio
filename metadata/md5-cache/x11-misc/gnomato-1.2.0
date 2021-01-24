@@ -1,0 +1,13 @@
+BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure postinst postrm preinst prepare setup
+DEPEND=|| ( dev-lang/python:3.8 dev-lang/python:3.7 ) dev-libs/boost:0= dev-util/boost-build dev-cpp/gtkmm:3.0 >=x11-libs/libnotify-0.7.3 >=dev-util/intltool-0.35.0 sys-devel/gettext[cxx] dev-db/sqlite:3
+DESCRIPTION=A timer for Pomodoro Technique
+EAPI=7
+HOMEPAGE=https://github.com/diegorubin/gnomato
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-3
+RDEPEND=|| ( dev-lang/python:3.8 dev-lang/python:3.7 ) dev-libs/boost:0= dev-util/boost-build dev-cpp/gtkmm:3.0 >=x11-libs/libnotify-0.7.3 >=dev-util/intltool-0.35.0 sys-devel/gettext[cxx] dev-db/sqlite:3
+SLOT=0
+SRC_URI=https://github.com/diegorubin/gnomato/releases/download/1.2.0/gnomato-1.2.0.tar.gz
+_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	gnome2-utils	c8e3fff820d850c0e003e22208d2eea3	l10n	8cdd85e169b835d518bc2fd59f780d8e	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	python-any-r1	f630b6d8702353cdc13f2d4dd882e16e	python-utils-r1	65bb60d137e5a51f58ada69bf3f366da	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	wrapper	4251d4c84c25f59094fd557e0063a974	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=c4d57d3157e11e271424469d4792f5b8
