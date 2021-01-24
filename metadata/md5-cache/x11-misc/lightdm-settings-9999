@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst postrm preinst prepare unpack
+DEPEND=sys-devel/gettext dev-util/desktop-file-utils
+DESCRIPTION=LightDM settings app to use it with the slick greeter
+EAPI=7
+HOMEPAGE=https://github.com/linuxmint/lightdm-settings
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=sys-devel/gettext dev-util/desktop-file-utils dev-python/setproctitle dev-python/pygobject sys-auth/polkit dev-python/xapp x11-themes/hicolor-icon-theme sys-apps/lsb-release x11-misc/lightdm-slick-greeter
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	65bb60d137e5a51f58ada69bf3f366da	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=a8738d227e95e3155d55e3cb4a407392
