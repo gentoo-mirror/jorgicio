@@ -1,0 +1,15 @@
+BDEPEND=|| ( dev-lang/python:3.8 dev-lang/python:3.7 >=dev-lang/python-2.7.5-r2:2.7 )
+DEFINED_PHASES=compile install postinst postrm prepare setup
+DEPEND=!games-emulation/sdlmametools !games-emulation/sdlmess dev-db/sqlite:3 dev-libs/expat media-libs/fontconfig media-libs/flac media-libs/libsdl2[joystick,opengl?,sound,video,X] media-libs/portaudio media-libs/sdl2-ttf sys-libs/zlib virtual/jpeg:0 virtual/opengl alsa? ( media-libs/alsa-lib media-libs/portmidi ) debug? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 ) x11-libs/libX11 x11-libs/libXinerama virtual/pkgconfig x11-base/xorg-proto
+DESCRIPTION=Multiple Arcade Machine Emulator + Multi Emulator Super System (MESS)
+EAPI=7
+HOMEPAGE=http://mamedev.org/
+IUSE=alsa +arcade debug +mess opengl openmp tools
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+ BSD-2 MIT CC0-1.0
+RDEPEND=!games-emulation/sdlmametools !games-emulation/sdlmess dev-db/sqlite:3 dev-libs/expat media-libs/fontconfig media-libs/flac media-libs/libsdl2[joystick,opengl?,sound,video,X] media-libs/portaudio media-libs/sdl2-ttf sys-libs/zlib virtual/jpeg:0 virtual/opengl alsa? ( media-libs/alsa-lib media-libs/portmidi ) debug? ( dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtwidgets:5 ) x11-libs/libX11 x11-libs/libXinerama
+REQUIRED_USE=|| ( arcade mess )
+SLOT=0
+SRC_URI=https://github.com/mamedev/mame/archive/mame0225.tar.gz -> mame-0.225.tar.gz
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	multilib	d410501a125f99ffb560b0c523cd3d1e	python-any-r1	f630b6d8702353cdc13f2d4dd882e16e	python-utils-r1	65bb60d137e5a51f58ada69bf3f366da	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	wrapper	4251d4c84c25f59094fd557e0063a974	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=f0db643b4e4c53124884cddb21fa9e86
