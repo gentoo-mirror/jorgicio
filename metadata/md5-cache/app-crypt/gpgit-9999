@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=prepare unpack
+DEPEND=app-shells/bash:* app-crypt/gnupg dev-vcs/git app-arch/xz-utils
+DESCRIPTION=A shell script that automates the process of signing Git sources via GPG
+EAPI=7
+HOMEPAGE=https://github.com/NicoHood/gpgit
+IUSE=github lzip
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=app-shells/bash:* app-crypt/gnupg dev-vcs/git app-arch/xz-utils github? ( app-misc/jq net-misc/curl ) lzip? ( app-arch/lzip )
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=eb20c65d03d30f63fe8e07dadfc03742
