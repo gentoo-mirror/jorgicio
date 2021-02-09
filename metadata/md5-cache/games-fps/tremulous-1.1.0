@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm prepare setup
+DEPEND=media-libs/freetype media-libs/mesa media-libs/openal media-libs/libsdl virtual/glu lua? ( dev-lang/lua:0 )
+DESCRIPTION=Team-based aliens vs humans FPS with buildable structures
+EAPI=7
+HOMEPAGE=http://tremulous.net
+IUSE=lua
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/freetype media-libs/mesa media-libs/openal media-libs/libsdl virtual/glu lua? ( dev-lang/lua:0 ) ~games-fps/tremulous-data-1.1.0
+SLOT=0
+SRC_URI=https://github.com/jkent/tremulous-mgclient/archive/e7f9c0265eeb09d569c5b118c9ce8e0322424014.tar.gz -> tremulous-1.1.0.tar.gz https://github.com/jkent/tremulous-mgtremded/archive/b68ee244c4f190794ec05a8fac1f42d299250023.tar.gz -> tremulous-server-1.1.0.tar.gz
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=8827edd5f29dabb2e322fca7ab7b0177
