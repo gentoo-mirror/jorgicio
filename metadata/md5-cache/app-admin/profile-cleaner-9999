@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Vacuum and reindex browser sqlite databases
+EAPI=7
+HOMEPAGE=https://github.com/graysky2/profile-cleaner
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=app-shells/bash sys-devel/bc sys-apps/coreutils sys-apps/findutils sys-apps/grep sys-apps/sed sys-process/parallel dev-db/sqlite:3
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=ebaf627cb1508d5465cc42d539a5325d
