@@ -1,0 +1,15 @@
+BDEPEND=python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-),-python_single_target_python3_9(-)] >=dev-python/setuptools-42.0.2[python_targets_python3_7(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-),-python_single_target_python3_9(-)] virtual/pkgconfig
+DEFINED_PHASES=compile configure install postinst prepare test
+DEPEND=dev-python/dbus-python[python_targets_python3_7(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-),-python_single_target_python3_9(-)] x11-apps/xrandr x11-apps/mesa-progs elogind? ( sys-auth/elogind )
+DESCRIPTION=Management utility to handle GPU switching for Optimus laptops
+EAPI=7
+HOMEPAGE=https://github.com/Askannz/optimus-manager
+IUSE=elogind gdm lightdm sddm systemd python_targets_python3_7 python_targets_python3_8 python_targets_python3_9
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-python/dbus-python[python_targets_python3_7(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-),-python_single_target_python3_9(-)] x11-apps/xrandr x11-apps/mesa-progs elogind? ( sys-auth/elogind ) gdm? ( gnome-base/gdm ) lightdm? ( x11-misc/lightdm ) sddm? ( x11-misc/sddm ) systemd? ( sys-apps/systemd ) python_targets_python3_7? ( dev-lang/python:3.7 ) python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_7(-)?,python_targets_python3_8(-)?,python_targets_python3_9(-)?,-python_single_target_python3_7(-),-python_single_target_python3_8(-),-python_single_target_python3_9(-)]
+REQUIRED_USE=elogind? ( !systemd ) || ( python_targets_python3_7 python_targets_python3_8 python_targets_python3_9 )
+SLOT=0
+SRC_URI=https://github.com/Askannz/optimus-manager/archive/v1.3.1.tar.gz -> optimus-manager-1.3.1.tar.gz
+_eclasses_=distutils-r1	e8980b05bfb91c37dea52d0da131ef6c	multibuild	6b3d5ee849dafe6cdfd7b859c211fb01	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-r1	f1d4277b3ad100890cbd62e137f0a769	python-utils-r1	69861348186337fa4b269de5826004b3	systemd	74b223e42834adf09a2d21fe5fe13741	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=0f2f5dbf3dbaae63ee25fbc02831a0c7
