@@ -1,0 +1,238 @@
+acct-group/prey 0: Prey user group
+acct-user/prey 0: Prey program user
+app-admin/1password 0.9.0_beta: Password manager and secure wallet (currently in beta)
+app-admin/autotrash 0.2.1 0.3.0 9999: Tool to automatically purge old trashed files
+app-admin/profile-cleaner 2.41 2.41-r1 9999: Vacuum and reindex browser sqlite databases
+app-admin/ultracopier 2.2.0.9 2.2.3.2 2.2.3.3 2.2.4.1 2.2.4.8 9999: Free and opensource replacement for files copy dialogs.
+app-arch/unarr 1.0.1 1.1.0_pre20200131 9999: A lightweight decompression library with support for rar, tar and zip archives
+app-arch/zchunk 1.1.1 1.1.5 1.1.6 9999: File format designed for highly efficient deltas with good compression
+app-backup/cronopete 4.12.0 9999: A backup utility for Linux, inspired by Apple's Time Machine
+app-crypt/gpgit 1.3.3 9999: A shell script that automates the process of signing Git sources via GPG
+app-doc/doctoc 1.4.0 9999: Generates a TOC for Markdown files inside for a git-based repository
+app-editors/atom-bin 1.50.0 1.54.0: A hackable text editor for the 21st Century - Binary package
+app-editors/featherpad 0.13.1 0.14.2: Lightweight Qt5 plain-text editor for Linux
+app-editors/graviton-bin 1.2.0 2.0.92: A modern code editor (binary package)
+app-editors/marker 2020.04.04.2 9999: Markdown editor made with GTK+-3.0
+app-editors/vnote 2.9.1 9999: Vim-inspired note taking application that knows programmers and Markdown better
+app-editors/vscode-bin 1.50.0 1.50.1 1.51.0 1.51.1 1.52.1: Multiplatform Visual Studio Code from Microsoft (binary version)
+app-editors/vscodium-bin 1.50.0 1.50.1 1.51.0 1.51.1 1.52.1: Free/Libre Open Source Software Binaries of VSCode (binary version)
+app-emulation/packettracer 7.2.1 7.2.1-r1: Cisco's packet tracer
+app-i18n/man-pages-es 1.55: A somewhat comprehensive collection of Spanish Linux man pages
+app-i18n/man-pages-es-extra 0.8a: A somewhat comprehensive collection of Spanish Linux man pages - Extra files
+app-laptop/prey 1.9.6: Tracking software for asset recovery, now Node.js-powered
+app-misc/ding 2.1.0 9999: A very simple cli-based solution with short-term time managment
+app-office/freeoffice 976 978 980: A complete, free Microsoft Office-compatible alternative office suite
+app-office/glabels-qt 3.99_pre558 3.99_pre561 9999: Development version of the next major version of gLabels (4.0)
+app-shells/eternalterminal 6.0.7 9999: Re-connectable secure remote shell
+app-shells/starship 0.41.3 0.42.0 0.43.0 0.44.0 0.45.2 9999: The cross-shell prompt for astronauts
+app-shells/starship-bin 0.41.3 0.42.0 0.43.0 0.44.0 0.45.2: The cross-shell prompt for astronauts (binary version)
+app-text/bookworm 1.1.2 9999: A simple ebook reader originally intended for Elementary OS
+app-text/espanso 0.6.3 0.7.1 0.7.2: Cross-platform text expander written in Rust
+app-text/espanso-bin 0.6.3 0.7.1 0.7.2: Cross-platform text expander written in Rust (binary version)
+app-text/pdfmixtool 0.5 0.6 9999: Application to split, merge, rotate and mix PDF files
+app-vim/awesome-vim-colorschemes 0_p20191123 0_p20200326 9999: vim plugin: Collection of awesome color schemes for Vim, merged for quick use
+app-vim/base16-vim 0_p20190607 9999: vim plugin: Base16 schemes for Vim
+app-vim/indentLine 2.0 9999: vim plugin: An indent guides plugin displaying thin vertical lines.
+app-vim/kotlin-vim 0_p20190114 0_p20190526 9999: vim plugin: Kotlin plugin for vim
+app-vim/mesonic 1.0.0: vim plugin: A plugin for Meson build system
+app-vim/vim-qml 0_p20180722 0_p20191219 9999: vim plugin: highlighting syntax support for QML code
+dev-dotnet/google-gdata-sharp 1.4.0.2: C# bindings for the Google GData API
+dev-dotnet/gtk-sharp-beans 2.14.0: GTK+ API C# binding
+dev-dotnet/gudev-sharp 0.1: GUDEV API C# binding
+dev-dotnet/mono-zeroconf 0.9.0: a cross platform Zero Configuration Networking library for Mono and .NET
+dev-dotnet/taglib-sharp 2.1.0.0: Taglib# 2.0 - Managed tag reader/writer
+dev-java/jayatana 0.7.3 9999: Application Menu Module for Java Swing applications
+dev-lang/gnucobol 2.2 3.0_rc1 3.1_rc1: an open-source COBOL compiler, formerly known as OpenCOBOL
+dev-libs/mauikit 1.1.0 1.1.1: Templated convergent controls and multiplatform utilities for Maui applications
+dev-libs/properties-cpp 0.0.1_p20140730: A very simple convenience library for handling properties and signals in C++11
+dev-python/PyUserInput 0.1.11 9999: A simple, cross-platform module for mouse and keyboard control
+dev-python/coveralls 2.0.0 2.1.1 2.1.2: Show coverage stats online via coveralls.io
+dev-python/dash 1.16.0 1.16.1 1.16.3 1.17.0: A Python framework for building analytical web applications
+dev-python/dash-core-components 1.12.0 1.12.1 1.13.0: Core components suite for Dash
+dev-python/dash-daq 0.5.0: Control componentes for Dash
+dev-python/dash-html-components 1.1.1: Vanilla HTML components for Dash
+dev-python/dash-renderer 1.8.0 1.8.1 1.8.2 1.8.3: Dash front-end renderer
+dev-python/dash-table 4.10.1 4.11.0: First-Class interactive DataTable for Dash
+dev-python/ewmh 0.1.6-r1: An implementation of Extended Window Manager Hints, based on Xlib
+dev-python/flask-seasurf 0.2.2 0.2.3: An updated cross-site forgery protection extension for Flask
+dev-python/fusepyng 1.0.5 1.0.7 9999: Simple ctypes bindings for FUSE
+dev-python/pipx 0.14.0.0 0.15.1.3 9999: Execute binaries from Python packages in isolated environments
+dev-python/plotly 4.9.0 4.10.0 4.11.0 4.12.0: Browser-based graphing library for Python
+dev-python/praw 7.0.0: Python Reddit API Wrapper allows simple access to reddit's API.
+dev-python/pyNFFT 1.0.1 9999: A pythonic wrapper around the NFFT library
+dev-python/pydbus 0.6.0 9999: Pythonic DBus library
+dev-python/pytest-dash 2.1.2: pytest fixtures to run Dash applications
+dev-python/python-nmap 0.6.1: A Python library which helps in using the nmap port scanner
+dev-python/speech_recognition 3.8.1 9999: Google-powered speech recognition for Python
+dev-python/spotipy 2.4.4 2.11.1 9999: A thin Python-based library for the Spotify Web API
+dev-python/userpath 1.3.0 9999: Cross-platform tool for adding locations to the user PATH
+dev-python/wikipedia 1.4.0 9999: Python library to support Wikipedia articles
+dev-qt/qhotkey 1.2.2 9999: A global shortcut/hotkey library for desktop Qt applications
+dev-qt/qmltermwidget 0.2.0: QML port of x11-libs/qtermwidget
+dev-ruby/ruby-opencv 0.0.18: Ruby implementation of OpenCV library
+dev-util/gambas 3.15.0: A free development environment based on a Basic interpreter
+dev-util/heaptrack 1.1.0: Fast heap memory profiler
+dev-util/heroku-cli 7.47.0 7.47.2 7.47.6: A tool for creating and managing Heroku apps from the command line
+dev-vcs/sublime-merge 1119 2020 2027: A new Git Client, from the creators of Sublime Text
+games-action/multimc5 0.6.11 9999: An advanced Qt5-based open-source launcher for Minecraft
+games-arcade/mari0 1.6.2: A mix from Nintendo's Super Mario Bros and Valve's Portal
+games-emulation/dosbox-x 0.82.23 0.83.0 9999: A fork of DOSBox, with patches and more features
+games-emulation/mednafen 1.22.2 1.24.1 1.24.3: Argument-driven multi-system emulator utilizing OpenGL and SDL
+games-emulation/mednaffe 0.8.8 0.9.0_beta: A front-end (GUI) for mednafen emulator
+games-emulation/melonds 0.8.3 0.9 9999: NintendoDS emulator, sorta. Also 1st quality melon.
+games-emulation/qmc2 0.195-r2: Qt-based UNIX MAME frontend supporting SDLMAME
+games-emulation/reicast 20.04 9999: A Dreamcast Emulator
+games-emulation/sdlmame 0.225: Multiple Arcade Machine Emulator + Multi Emulator Super System (MESS)
+games-fps/crispy-doom 5.6.2 5.8.0 5.9.0 9999: Vanilla-compatible enhanced Doom engine, forked from Chocolate Doom
+games-fps/ezquake 3.1 3.2.1 9999: Quakeworld client with mqwcl functionality and many more features
+games-fps/nblood 1.01 9999: Blood port based in EDuke32
+games-fps/openarena 0.8.8: Open-source replacement for Quake 3 Arena
+games-fps/tremulous 1.1.0: Team-based aliens vs humans FPS with buildable structures
+games-fps/tremulous-data 1.1.0: Data files for Tremulous
+games-puzzle/2048-qt 0.1.6 9999: A Qt-based version of the game 2048
+games-util/overviewer 0.14.0 0.15.0 0.15.27: The Minecraft Overviewer tool that renders a Google Maps-like map interface
+kde-misc/ikona 1.0 9999: Icon preview designed for Plasma
+kde-misc/peruse 1.2_p20190907 9999: A comic book viewer based on Framework 5, for use on multiple form factors.
+kde-misc/plasma-applet-awesome-widgets 3.3.3 9999: Collection of minimalistic plasmoids which look like Awesome VM Widgets
+kde-misc/plasma-applet-caffeine-plus 1.4 9999: Plasma 5 applet to disable screensaver and auto-suspend
+kde-misc/plasma-applet-places-widget 1.3 9999: Plasma 5 widget that gives access to user places
+kde-misc/plasma-applet-stopwatch 1.0: Plasma 5 applet to add a stopwatch
+kde-misc/plasma-applet-window-appmenu 0.6.0 9999: Plasma 5 applet in order to show the window appmenu
+kde-misc/plasma-simpleMonitor 0.6 9999: Plasma 5 simple and compact system monitor
+lxqt-base/compton-conf 0.4.0 0.14.1 9999: GUI configuration tool for the compton X composite manager
+lxqt-base/lxqt-archiver 0.0.96 9999: A simple & lightweight desktop-agnostic Qt file archiver
+mate-extra/brisk-menu 0.5.0 9999: Solus Project's Brisk Menu MATE Panel Applet
+mate-extra/mate-tweak 18.04.16 18.10.2 19.10.4 9999: Tweak tool for MATE, a fork of MintDesktop
+media-fonts/corefonts-extra 20130709: Microsoft's TrueType extra core fonts: Calibri, Consolas and Segoe Family
+media-fonts/emojione-color-font 1.4: A color and B&W emoji SVG-in-OpenType font
+media-fonts/inter 3.13: The Inter font family
+media-fonts/joypixels 5.5.0 6.0.0: Emoji as a Service (formerly EmojiOne)
+media-fonts/meslo 1.2.1: Customized version of Apple's Menlo font.
+media-fonts/noto-emoji-apple 20200219: Google Noto Emoji Fonts replaced with Apple branded emoji
+media-fonts/san-francisco-otf 1.0: The system font for macOS, iOS, watchOS and tvOS
+media-fonts/twemoji 13.0.1_p2: Twitter Emoji for everyone.
+media-fonts/twemoji-color-font 12.0.1 13.0.1: A color and B&W emoji SVG-in-OpenType font with ZWJ
+media-fonts/typecatcher 0.3 9999: The easiest way to install Google Webfonts for off-line use
+media-gfx/escrotum 1.0.1 9999: Screen capture using pygtk, inspired by scrot
+media-gfx/flameshot 0.8.5: Powerful yet simple to use screenshot software
+media-gfx/gyazo 1.2.1 9999: Seriously Instant Screen-Grabbing
+media-gfx/iscan-plugin-cx4400 2.1.3: Epson Stylus CX4300/CX4400/CX5600/DX4400 scanner plugin for SANE epkowa backend
+media-gfx/ldraw 201901: LDraw parts library
+media-gfx/leocad 18.02 19.07.1 9999: LeoCAD is a CAD program that uses bricks similar to those found in many toys.
+media-gfx/lsix 1.6.2 1.7.0 9999: Image viewer for terminal that use sixel graphics
+media-gfx/openboard 1.5.4 9999: Interactive whiteboard software for schools and universities
+media-gfx/pynocchio 3.1.1 9999: Qt-based image viewer specialized in manga/comic reading
+media-gfx/screencloud 1.5.1 9999: Screenshot capturing and sharing tool over various services
+media-gfx/yacreader 9.6.2 9.6.2_p20200411 9999: A comic reader for cross-platform reading and managing your comic collection
+media-gfx/yuview 2.5 2.6 9999: Free and open source cross-platform YUV viewer with advanced analytics toolset
+media-libs/zint 2.6.7 2.7.1 2.8.0 2.9.1: Barcode encoding library supporting over 50 symbologies
+media-plugins/autotalent 0.2: Realtime pitch correction plugin
+media-plugins/gimp-paint-studio 2.0-r1: Gimp Paint Studio (GPS) is a collection of brushes and tool presets for making usage very comfortable.
+media-plugins/kodi-youtube 6.5.1 6.8.2 6.8.3 9999: YouTube addon for Kodi
+media-plugins/obs-linuxbrowser 0.6.1: Browser source plugin for obs-studio based on CEF.
+media-sound/amarok 2.9.70_p20190707 2.9.70_p20200414: Advanced audio player based on KDE frameworks
+media-sound/banshee 2.9.1: Import, organize, play, and share your music
+media-sound/google-musicmanager 1.0.467.4929_beta: An application for adding music to your Google Music library
+media-sound/gradio 7.1 7.2 9999: A GTK3 app for finding and listening to internet radio stations
+media-sound/mellowplayer 3.6.5 3.6.6 3.6.7 9999: Cloud music integration for your desktop
+media-sound/miam-player 0.8.0 0.9.0 9999: Cross-platform open source music player built with Qt5, QTav and Taglib.
+media-sound/musicrepair 1.0: Fixes music metadata and adds album art
+media-sound/parlatype 1.5.1 1.5.2 9999: GNOME audio player for transcription
+media-sound/pogo 0.9.2 1.0 9999: Fast and minimalist music player
+media-sound/sayonara 1.5.1_p5 9999: Small, clear and fast Qt-based audio player
+media-sound/zita-ajbridge 0.8.2: Bridge ALSA devices to Jack clients, to provide additional capture (a2j) or playback (j2a) channels
+media-sound/zita-at1 0.6.2: An autotuner, normally used to correct the pitch of a voice singing (slightly) out of tune
+media-sound/zita-rev1 0.2.2: Zita-rev1 is a reworked version of the reverb originally developed for Aeolus
+media-tv/castawesome 0.16.0 9999: A GUI frontend for ffmpeg livestreaming
+media-tv/peerflix 0.39.0 9999: Streaming torrent client for node.js
+media-tv/xawtv 3.107: Small suite of video4linux related software
+media-video/flowblade 2.4.0.1-r1 2.6.3 9999-r1: A multitrack non-linear video editor
+media-video/gydl 0.1.1 9999: Simple lightweight frontend for youtube-dl
+media-video/kazam 1.4.5 9999: A screencasting program with design in mind
+media-video/minitube 2.9 9999: Qt5 YouTube Client
+media-video/olive 0.1.1 0.1.2: Professional open-source non-linear video editor
+media-video/videomorph 1.3 1.4 1.4.1 9999: Small GUI wrapper for ffmpeg based on PyQt5
+net-analyzer/speedtest 1.0.0: Speedtest CLI by Ookla
+net-analyzer/speedtest++ 1.11 9999: Unofficial speedtest.net client using raw TCP for better accuracy
+net-analyzer/speedtest-rs 0.0.14: Speedtest.net testing utility in Rust
+net-dns/qmdnsengine 0.1.0 9999: Simple multicast DNS library for Qt applications
+net-im/cawbird 1.2.1 9999: Native GTK+3 Twitter client, forked from Corebird
+net-im/gtkwhats 1.0: Rust-based client for WhatsApp
+net-im/qtwaw 1.6.11 1.6.13 1.6.14 9999: Qt-based application for WhatsApp Web
+net-im/telegram-cli 20200106 99999999: Command line interface client for Telegram
+net-im/whatsapp-for-linux 1.0.6 1.0.7 1.0.8 1.0.9 9999: Unofficial Whatsapp Linux client desktop application
+net-im/yakyak-bin 1.5.4: Desktop chat client for Google Hangouts
+net-libs/qhttpengine 1.0.1 9999: Simple and secure HTTP server for Qt applications
+net-misc/googler 4.3.2 9999: Google Search from command line
+net-misc/ike 2.2.1: Shrew soft VPN Client
+net-misc/mininet 2.2.2 2.3.0_pre6 9999: Process-based network emulator
+net-misc/persepolis 3.1.0 3.2.0 9999: Qt-based download manager and frontend for aria2 with lots of features.
+net-misc/postman-bin 7.28.0 7.30.1 7.31.1 7.33.1 7.34.0: Supercharge your API workflow
+net-misc/pushbullet-indicator 0.6.3-r1: An indicator for working with PushBullet
+net-misc/screamingfrogseospider 12.6 13.0 13.2: Website crawler for your desktop
+net-vpn/expressvpn 2.5.2.3_p1 2.6.3.3_p1 2.6.4.5_p1: Propietary VPN client for Linux
+net-vpn/haguichi 1.4.2 1.4.3 9999: Provides a user friendly GTK+-3 GUI to control the Hamachi client on Linux
+net-vpn/nordvpn 3.8.1 3.8.5 3.8.7: NordVPN CLI tool for Linux
+net-vpn/quamachi 0.8.0: A QT5-based Hamachi GUI for Linux
+net-vpn/surfshark-vpn 1.1.0: Surfshark VPN Linux client
+net-wireless/create_ap 9999: Tool for creating an access point for sharing wireless network
+net-wireless/kickthemout 0.1 9999: Kick devices off your network by performing an ARP spoof attack
+net-wireless/nitroshare 0.3.4 9999: Network File Transfer Application
+sci-biology/erne 2.1.1: Extended Randomized Numerical alignEr for accurate alignment of NGS reads
+sci-mathematics/frama-c 21.1: Framework for analysis of source codes written in C
+sys-apps/anything-sync-daemon 5.85 9999: Symlinks and syncs user specified dirs to RAM thus reducing HDD/SDD calls and speeding-up the system
+sys-apps/fkill-cli 3.4.0 3.6.0 6.0.1 9999: A cross-platform tool to fabulously kill processes
+sys-apps/ripgrep-all 0.9.3 0.9.3-r1 0.9.6 9999: ripgrep, but also search in PDFs, e-books, office documents, compressed, etc.
+sys-apps/rm-protection 0.1.2 0.1.3 9999: A safe alterantive for the rm command with some differences
+sys-boot/multibootusb 9.2.0 9999: Boot multiple live Linux distros from an USB flash drive
+sys-power/hmtimer 3.1.0 9999: Hsiu-Ming graphical shutdown timer
+sys-power/paramano 0.71 9999: Docking battery monitor and CPU governor controller, forked from trayfreq
+sys-process/gtop 0.1.4 1.0.0 1.0.2 9999: System monitoring dashboard for terminal
+sys-process/hegemon 0.1.0 9999: A modular system monitor written in Rust
+www-client/brave-bin 1.16.68 1.16.72 1.16.75 1.16.76 1.17.73 1.17.75 1.18.70 1.18.75: Brave Web Browser (binary version)
+x11-apps/ocs-url 3.1.0 9999: A program enabling web-installation of items via OpenCollaborationServices
+x11-apps/rivalcfg 2.4.3 2.6.0 3.6.1 9999: SteelSeries Rival gaming configuration tool
+x11-apps/touchpad-indicator 0_p20200110 9999: A simple indicator for controlling a synaptics touchpad
+x11-drivers/xf86-input-wizardpen 0.8.2: A Linux/HAL/udev/X11 driver for most non-Wacom graphics pads
+x11-libs/libdri2 0_p20120823 9999: Library for the DRI2 extension to the X Window System
+x11-misc/caffeine-ng 3.4.2 9999: Stop the desktop from becoming idle in full-screen mode. (Fork of Caffeine)
+x11-misc/cairo-compmgr 0.3.1 9999: Cairo based composite manager
+x11-misc/cerebro 0.3.0 0.3.1 0.3.2: Open-source prodictivity booster with a brain
+x11-misc/clipit 1.4.4 9999: Lightweight GTK+ clipboard manager. Fork of Parcellite.
+x11-misc/emojione-picker 0.1 9999: Emoji picker based on icons by Emojione
+x11-misc/gnomato 1.1.0 1.2.0 9999: A timer for Pomodoro Technique
+x11-misc/hardcode-tray 4.3 9999: Fixes harcoded tray icons in Linux
+x11-misc/index 1.1.0 1.1.1: File manager that works on desktops, Android and Plasma Mobile
+x11-misc/jome 20200205: An emoji picker desktop application
+x11-misc/komorebi 2.0 2.1 9999: A beautiful, customizable wallpapers manager for Linux
+x11-misc/lightdm-gtk-greeter-settings 1.2.2: Settings editor for LightDM GTK+ greeter
+x11-misc/lightdm-qt5-greeter 0.9: lightdm-qt5-greeter is a simple frontend for the lightdm displaymanager
+x11-misc/lightdm-settings 1.2.8-r1 1.3.2 9999: LightDM settings app to use it with the slick greeter
+x11-misc/lightdm-slick-greeter 1.2.7 1.3.1 9999: LightDM greeter forked from Unity by Linux Mint team
+x11-misc/nightshift 0.6 9999: A terminal user interface for redshift
+x11-misc/nvidia-xrun 0.3: Script to run dedicated X server with discrete nvidia graphics
+x11-misc/optimus-manager 1.2.2 1.3.1 9999: Management utility to handle GPU switching for Optimus laptops
+x11-misc/optimus-manager-qt 1.4.5 1.5.3 9999: Qt-based interface for Optimus Manager
+x11-misc/ulauncher 5.7.0 5.7.5 5.8.0 9999: Application launcher for Linux
+x11-plugins/appmenu-gtk-module 0.7.3 9999: Application Menu GTK+ Module
+x11-themes/adapta-kde 20180828 99999999: Adapta KDE customization
+x11-themes/ant-gtk-theme 1.3.0 9999: A flat light theme with a modern look
+x11-themes/faba-icon-theme 4.3 9999: Faba is a sexy and modern icon theme with Tango influences.
+x11-themes/faba-mono-icons 9999: Monochrome variant of Faba Icon Theme
+x11-themes/flat-remix-icon-theme 20200511 99999999: A pretty simple icon theme, derived from Ultra-Flat-Icons, Paper and Flattr
+x11-themes/flattiance 1.3.2 9999: A semi-flat fork of the Ubuntu Ambiance theme
+x11-themes/la-capitaine-icon-theme 0.6.1 9999: Icon pack based in macOS and Google Material Design
+x11-themes/mate-notification-theme-slate 4 5 9999: MATE notification daemon theme based in the Budgie notifications from Solus OS
+x11-themes/materia-kde 20200523 20200614 99999999: Port of the GTK Materia Theme for Plasma 5 desktop with additions and extras.
+x11-themes/materia-theme 20200320 99999999: A Material Design-like flat theme for GTK3, GTK2 and GNOME Shell
+x11-themes/mcmojave-kde 20200521 99999999: macOS Mojave-like theme for KDE Plasma
+x11-themes/mojave-gtk-theme 2020.03.24 2020.05.12 9999: A macOS-like theme for GTK+
+x11-themes/moka-icon-theme 5.4.0 9999: Moka is a stylized Linux desktop icon set
+x11-themes/paper-icon-theme 1.5.0 9999: Paper is an icon theme for GTK-based desktops
+x11-themes/papirus-filezilla-themes 20170119 20200105 99999999: Papirus icon themes for Filezilla
+x11-themes/papirus-folders 1.7.0 1.8.0 9999: Allows to change the color of folders for Papirus Icon Theme
+x11-themes/pop-gtk-theme 5.1.2 9999: System76 Pop GTK+ Theme, based in adapta-gtk-theme
+x11-themes/vimix-cursors 2020.02.24 9999: X cursor theme inspired by Material Design
+x11-themes/vimix-gtk-themes 2020.02.24 9999: A flat Material Design theme for GTK
+x11-themes/vimix-icon-theme 2020.02.24 2020.07.10 9999: A Material Design icon theme based on Paper Icon Theme
+x11-themes/vimix-kde 0_p20200425 9999: Flat Material Design-like theme for KDE Plasma
