@@ -1,0 +1,88 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-arch/unarr:7z - Enable support for 7z by installing app-arch/p7zip
+app-crypt/gpgit:github - Enable Github API support
+app-crypt/gpgit:lzip - Enable compression using app-arch/lzip
+app-editors/atom-bin:system-node - Use node.js system implementation instead of bundled.
+app-editors/marker:pandoc - Enable pandoc support (requires Haskell compiler/interpreter)
+app-office/freeoffice:pax_kernel - Triggers a paxmarking of the binary
+app-office/glabels-qt:barcode - Enable barcode support through external libraries.
+app-shells/eternalterminal:utempter - Enable support for sys-libs/libutempter
+dev-java/jayatana:system-wide - Enable system-wide configuration (recommended)
+dev-util/heaptrack:gui - Install Qt5-based analyzer tool
+games-emulation/dosbox-x:sdl2 - Use SDL 2.x instead of SDL 1.x
+games-emulation/mednafen:debugger - Build with internal debugger
+games-emulation/mednafen:pax_kernel - Triggers a paxmarking of the binary
+games-emulation/mednaffe:gtk3 - Use the GTK+3 library for Mednaffe
+games-emulation/qmc2:arcade - Enable arcade support
+games-emulation/qmc2:minizip - Enable system minizip instead of bundled
+games-emulation/qmc2:multimedia - Enable multimedia support
+games-emulation/qmc2:phonon - Enable Phonon backend
+games-emulation/qmc2:tools - Enable MAME tools
+games-emulation/qmc2:zlib - Enable system zlib instead of bundled
+games-emulation/sdlmame:arcade - Enable the Multiple Arcade Machine Emulator for arcade games support
+games-emulation/sdlmame:mess - Enable the Multi Emulator Super System for game system support
+games-emulation/sdlmame:tools - Build development tools shared between sdlmame and sdlmess
+games-fps/ezquake:lua - Enable Lua support
+games-fps/nblood:fluidsynth - Install media-libs/sdl2-mixer with fluidsynth support.
+games-fps/nblood:server - Enable support for multiplayer.
+games-fps/nblood:tools - Install the support tools for mapster32.
+games-fps/nblood:vpx - Enable support for media-libs/libvpx.
+games-fps/tremulous:lua - Enable Lua support
+mate-extra/brisk-menu:ubuntu - Install the Ubuntu style (and other additional styles) for MATE panel
+mate-extra/mate-tweak:ubuntu - Install the Ubuntu style (and other additional styles) for MATE panel
+media-fonts/meslo:dotted-zero - Use the dotted zero variant of the font
+media-gfx/openboard:open-sankore - Install the Open-Sankoré document importer
+media-gfx/yacreader:pdf - Enable support for PDF reading
+media-gfx/yacreader:qrencode - Enable support for QR code reading
+media-sound/amarok:lastfm - Enable Last.fm streaming services support through media-libs/liblastfm
+media-sound/amarok:mtp - Enable support for libMTP (Plays4Sure) devices access through libmtp
+media-sound/amarok:ofa - Use media-libs/libofa to compute MusicDNS acoustic fingerprints (used by MusicBrainz)
+media-sound/amarok:podcast - Enable gpodder.net podcast support via media-libs/libmygpo-qt
+media-sound/amarok:wikipedia - Enable wikipedia widget using dev-qt/qtwebengine
+media-sound/banshee:bpm - Build beats per minute detection extension
+media-sound/banshee:daap - Build with Daap support
+media-sound/banshee:karma - Build with karma support
+media-sound/banshee:web - Enable support for plugins that access web-based services such as Amazon and wikipedia (requires net-libs/webkit-gtk)
+media-sound/banshee:youtube - Enable the Youtube plugin
+media-sound/mellowplayer:widevine - Enable DRM capability (required by services such as Spotify or Netflix)
+media-sound/parlatype:glade-catalog - Install a glade-catalog
+media-sound/parlatype:libreoffice - Install Libreoffice macros
+media-sound/zita-at1:pkgconf - Use dev-util/pkgconf instead of dev-util/pkgconfig
+media-sound/zita-rev1:pkgconf - Use dev-util/pkgconf instead of dev-util/pkgconfig
+media-video/minitube:download - Enable support for downloading YouTube videos
+media-video/olive:frei0r - Allow many more extra video effects by media-plugins/frei0r-plugins
+net-im/cawbird:spellcheck - Enable spell check support
+net-im/telegram-cli:json - Enable JSON support
+net-misc/googler:fish-completion - Enable fish-completion support
+net-misc/ike:nat - Enable Network Address Translation (NAT) support
+net-misc/mininet:tools - Enable the support for the mininet tools
+net-misc/mininet:xhost - Enable support for xhost
+net-misc/screamingfrogseospider:system-java - Use system-wide Java instead of bundled one. (Requires JRE 11 or newer)
+net-vpn/haguichi:appindicator - Enable support for appindicator using dev-libs/libappindicator
+net-vpn/nordvpn:nordlynx - Enable NordLynx support using the WireGuard protocol
+net-vpn/surfshark-vpn:pax_kernel - Triggers a paxmarking of the binary
+net-wireless/nitroshare:http - Allow local applications access
+net-wireless/nitroshare:mdns - Enable multicast DNS (mDNS) discovery
+sci-astronomy/eht-imaging:dynamical - Enable support for dynamical imaging
+sci-astronomy/eht-imaging:nfft - Enable support for clean usage using NFFT library
+sci-astronomy/eht-imaging:pandas - Enable support for stadistics using Pandas library
+sci-biology/erne:mpi - Enable the message passing interface (MPI) support in parallel computing
+sci-biology/erne:mpich - Enable the MPICH support (as well as MPICH2)
+x11-misc/clipit:appindicator - Enable support for appindicator
+x11-misc/clipit:gtk3 - Enable GTK+ 3 support
+x11-misc/nvidia-xrun:libglvnd - Use media-libs/libglvnd for dispatch.
+x11-misc/optimus-manager:gdm - Enable support for GDM
+x11-misc/optimus-manager:lightdm - Enable support for LightDM
+x11-misc/optimus-manager:sddm - Enable support for SDDM
+x11-misc/optimus-manager-qt:plasma - Enable KDE Plasma support
+x11-plugins/appmenu-gtk-module:system-wide - Enable system-wide configuration (recommended)
+x11-themes/adapta-kde:kvantum - Install Kvantum themes
+x11-themes/flat-remix-icon-theme:dark - Install dark themes
+x11-themes/flat-remix-icon-theme:light - Install light themes
+x11-themes/materia-kde:kvantum - Install Kvantum theme
+x11-themes/mcmojave-kde:kvantum - Install Kvantum themes (requires x11-themes/kvantum)
+x11-themes/vimix-kde:kvantum - Install Kvantum theme
+x11-themes/vimix-kde:sddm - Install sddm theme
