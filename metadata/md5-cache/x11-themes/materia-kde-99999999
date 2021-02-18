@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=kde-plasma/plasma-desktop:5 kvantum? ( x11-themes/kvantum )
+DESCRIPTION=Port of the GTK Materia Theme for Plasma 5 desktop with additions and extras.
+EAPI=7
+HOMEPAGE=https://github.com/PapirusDevelopmentTeam/materia-kde
+IUSE=kvantum
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=kde-plasma/plasma-desktop:5 kvantum? ( x11-themes/kvantum )
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=3d057e922aa83d4f461548d02bc6e1b4
