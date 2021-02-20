@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst prepare prerm
+DEPEND=virtual/cron dev-libs/openssl media-tv/xawtv sys-apps/net-tools || ( media-gfx/scrot media-gfx/imagemagick ) || ( gnome-extra/zenity kde-apps/kdialog ) media-sound/mpg123 media-sound/pulseaudio net-wireless/wireless-tools sys-apps/lsb-release acct-user/prey net-libs/nodejs
+DESCRIPTION=Tracking software for asset recovery, now Node.js-powered
+EAPI=7
+HOMEPAGE=http://preyproject.com
+IUSE=systemd
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=virtual/cron dev-libs/openssl media-tv/xawtv sys-apps/net-tools || ( media-gfx/scrot media-gfx/imagemagick ) || ( gnome-extra/zenity kde-apps/kdialog ) media-sound/mpg123 media-sound/pulseaudio net-wireless/wireless-tools sys-apps/lsb-release acct-user/prey net-libs/nodejs systemd? ( sys-apps/systemd )
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=x86? ( https://github.com/prey/prey-node-client/releases/download/v1.9.6/prey-linux-1.9.6-x86.zip ) amd64? ( https://github.com/prey/prey-node-client/releases/download/v1.9.6/prey-linux-1.9.6-x64.zip )
+_md5_=adce1e06f2fa6819c8e14ec215db877a
