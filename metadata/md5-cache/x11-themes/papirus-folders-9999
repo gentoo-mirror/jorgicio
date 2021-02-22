@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=prepare prerm unpack
+DESCRIPTION=Allows to change the color of folders for Papirus Icon Theme
+EAPI=7
+HOMEPAGE=https://git.io/papirus-folders
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=x11-themes/papirus-icon-theme
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=f0a78732173a8811d12d2e6732a06319
