@@ -1,0 +1,14 @@
+DEFINED_PHASES=install nofetch postinst postrm preinst prepare
+DEPEND=app-arch/gzip dev-util/patchelf dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=Cisco's packet tracer
+EAPI=7
+HOMEPAGE=https://www.netacad.com/about-networking-academy/packet-tracer
+IUSE=libressl
+KEYWORDS=~amd64
+LICENSE=Cisco
+RDEPEND=app-arch/gzip dev-util/patchelf dev-qt/qtcore:5 dev-qt/qtgui:5 dev-libs/icu !libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) media-libs/libpng-compat:1.2
+RESTRICT=fetch mirror strip
+SLOT=0
+SRC_URI=amd64? ( packettracer-7.2.1-amd64.tar.gz )
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=8afe2999f14304b08413121c52c6d526
