@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst postrm preinst prepare
+DEPEND=kde-plasma/plasma-desktop kvantum? ( x11-themes/kvantum ) dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=macOS Mojave-like theme for KDE Plasma
+EAPI=7
+HOMEPAGE=https://github.com/vinceliuice/McMojave-kde
+IUSE=kvantum
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=kde-plasma/plasma-desktop kvantum? ( x11-themes/kvantum )
+SLOT=0
+SRC_URI=https://github.com/vinceliuice/McMojave-kde/archive/435fb0a62dad9dcd2553e45bda5b282aa5113d9e.tar.gz -> McMojave-kde-20200521.tar.gz
+_eclasses_=xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=0138c0a114e31da273891e75a8322e35
