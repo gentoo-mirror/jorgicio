@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=x11-libs/gtk+:2
+DESCRIPTION=Docking battery monitor and CPU governor controller, forked from trayfreq
+EAPI=7
+HOMEPAGE=https://gitlab.com/dphillips/paramano
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=x11-libs/gtk+:2 app-admin/sudo
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=e1d8396d16ad3953283a6a44be9cfa71
