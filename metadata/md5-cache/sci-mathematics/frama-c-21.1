@@ -1,0 +1,15 @@
+BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=compile configure install prepare
+DEPEND=>=dev-lang/ocaml-4.02[ocamlopt?] dev-ml/camlp4[ocamlopt?] >=dev-ml/ocamlgraph-1.8.5[gtk?,ocamlopt?] dev-ml/yojson dev-ml/zarith[ocamlopt?] gtk? ( >=dev-ml/lablgtk-2.14[sourceview,gnomecanvas,ocamlopt?] ) dev-ml/findlib dev-ml/lablgl:=[ocamlopt?] media-gfx/graphviz sci-mathematics/coq
+DESCRIPTION=Framework for analysis of source codes written in C
+EAPI=7
+HOMEPAGE=https://frama-c.com
+IUSE=gtk +ocamlopt
+KEYWORDS=~amd64
+LICENSE=LGPL-2.1
+RDEPEND=>=dev-lang/ocaml-4.02[ocamlopt?] dev-ml/camlp4[ocamlopt?] >=dev-ml/ocamlgraph-1.8.5[gtk?,ocamlopt?] dev-ml/yojson dev-ml/zarith[ocamlopt?] gtk? ( >=dev-ml/lablgtk-2.14[sourceview,gnomecanvas,ocamlopt?] )
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://frama-c.com/download/frama-c-21.1-Scandium.tar.gz
+_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	desktop	c0d27bf73aa08ca05b663dbd31fbef28	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=e1a3346c855ea42966cd32ffe11388dc
