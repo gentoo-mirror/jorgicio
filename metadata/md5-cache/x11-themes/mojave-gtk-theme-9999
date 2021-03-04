@@ -1,0 +1,13 @@
+BDEPEND=dev-lang/sassc >=media-gfx/inkscape-1.0_rc1 media-gfx/optipng >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=x11-libs/gtk+:2 x11-libs/gtk+:3 x11-themes/gtk-engines x11-themes/gtk-engines-murrine
+DESCRIPTION=A macOS-like theme for GTK+
+EAPI=7
+HOMEPAGE=https://github.com/vinceliuice/Mojave-gtk-theme
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=x11-libs/gtk+:2 x11-libs/gtk+:3 x11-themes/gtk-engines x11-themes/gtk-engines-murrine
+RESTRICT=strip
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=0d7daa5c4a9b8af69d2161197b450601
