@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst postrm prepare unpack
+DEPEND=net-libs/nodejs x11-libs/gtk+:3 dev-libs/nss dev-libs/nspr net-print/cups x11-libs/pango sys-libs/libcap x11-libs/libXtst x11-libs/libnotify !app-editors/graviton
+DESCRIPTION=A modern code editor (binary package)
+EAPI=7
+HOMEPAGE=https://graviton.netlify.app
+KEYWORDS=-* ~amd64
+LICENSE=MIT
+RDEPEND=net-libs/nodejs x11-libs/gtk+:3 dev-libs/nss dev-libs/nspr net-print/cups x11-libs/pango sys-libs/libcap x11-libs/libXtst x11-libs/libnotify !app-editors/graviton
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=https://github.com/Graviton-Code-Editor/Graviton-App/releases/download/1.2.0/Graviton-1.2.0-amd64-linux.deb
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	unpacker	45b49db67094fdafbb6a16a2299e894b	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=1472c46a84d1cfe56d9d197c26020307
