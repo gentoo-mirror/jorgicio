@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure prepare
+DEPEND=dev-libs/gmp:0= berkdb? ( >=sys-libs/db-4.1:= ) sys-libs/ncurses:0= sys-libs/readline:= !dev-lang/open-cobol sys-devel/libtool:=
+DESCRIPTION=an open-source COBOL compiler, formerly known as OpenCOBOL
+EAPI=7
+HOMEPAGE=https://www.gnu.org/software/gnucobol/
+IUSE=berkdb nls
+KEYWORDS=~amd64 ~arm ~ppc ~x86
+LICENSE=GPL-2 LGPL-2.1
+RDEPEND=dev-libs/gmp:0= berkdb? ( >=sys-libs/db-4.1:= ) sys-libs/ncurses:0= sys-libs/readline:= !dev-lang/open-cobol
+RESTRICT=strip
+SLOT=0
+SRC_URI=mirror://sourceforge/gnucobol/gnucobol-3.0-rc1.tar.xz
+_md5_=6e0df215988db2968e5ba217f3c81bbd
