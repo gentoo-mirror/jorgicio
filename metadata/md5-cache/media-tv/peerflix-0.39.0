@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=net-libs/nodejs[npm]
+DESCRIPTION=Streaming torrent client for node.js
+EAPI=6
+HOMEPAGE=https://github.com/mafintosh/peerflix
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=net-libs/nodejs[npm]
+SLOT=0
+SRC_URI=https://github.com/mafintosh/peerflix/archive/v0.39.0.tar.gz -> peerflix-0.39.0.tar.gz
+_md5_=63b58473c6c1d32bc67f7cbbe8efe7e2
