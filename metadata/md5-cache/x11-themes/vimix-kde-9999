@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install prepare unpack
+DEPEND=kde-plasma/plasma-desktop:5 kvantum? ( x11-themes/kvantum ) sddm? ( x11-misc/sddm )
+DESCRIPTION=Flat Material Design-like theme for KDE Plasma
+EAPI=7
+HOMEPAGE=https://github.com/vinceliuice/vimix-kde
+IUSE=kvantum sddm
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=kde-plasma/plasma-desktop:5 kvantum? ( x11-themes/kvantum ) sddm? ( x11-misc/sddm )
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=15dfe4e517eb1be5d3b4a5ddc2fdfd24
