@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst prepare unpack
+DEPEND=net-vpn/openvpn sys-libs/glibc
+DESCRIPTION=Surfshark VPN Linux client
+EAPI=7
+HOMEPAGE=https://surfshark.com
+IUSE=pax_kernel
+KEYWORDS=~amd64
+LICENSE=SurfShark
+RDEPEND=net-vpn/openvpn sys-libs/glibc
+RESTRICT=mirror strip
+SLOT=0
+SRC_URI=amd64? ( https://ocean.surfshark.com/debian/pool/main/s/surfshark-vpn/surfshark-vpn_1.1.0_amd64.deb )
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	unpacker	45b49db67094fdafbb6a16a2299e894b
+_md5_=8a183187515bc1bb33c22104026514fe
