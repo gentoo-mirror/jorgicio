@@ -1,0 +1,9 @@
+DEFINED_PHASES=install postinst unpack
+DESCRIPTION=LDraw parts library
+EAPI=7
+HOMEPAGE=https://www.ldraw.org
+KEYWORDS=~amd64 ~arm ~arm64 ~x86
+LICENSE=CC-BY-2.0 OPL
+SLOT=0
+SRC_URI=https://www.ldraw.org/library/updates/complete.zip -> ldraw-201901.zip
+_md5_=ea3c6d21b1d6449e1028c337aaf366a4
