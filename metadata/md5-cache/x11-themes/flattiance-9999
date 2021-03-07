@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=x11-libs/gtk+:2 x11-libs/gtk+:3 x11-libs/gdk-pixbuf
+DESCRIPTION=A semi-flat fork of the Ubuntu Ambiance theme
+EAPI=7
+HOMEPAGE=https://github.com/IonicaBizau/Flattiance
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=x11-libs/gtk+:2 x11-libs/gtk+:3 x11-libs/gdk-pixbuf x11-themes/gtk-engines-flat
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=dc73f827f528cf64ebbb67c46985c0d9
