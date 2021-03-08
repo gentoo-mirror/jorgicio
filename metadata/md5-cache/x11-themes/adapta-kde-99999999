@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=kde-plasma/plasma-desktop:5
+DESCRIPTION=Adapta KDE customization
+EAPI=7
+HOMEPAGE=https://git.io/adapta-kde
+IUSE=kvantum
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=kde-plasma/plasma-desktop:5 kvantum? ( x11-themes/kvantum )
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=9e6d343708f116cb04a450c6e36c6c8b
