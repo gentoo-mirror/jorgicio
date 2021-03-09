@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=media-gfx/gimp
+DESCRIPTION=Gimp Paint Studio (GPS) is a collection of brushes and tool presets for making usage very comfortable.
+EAPI=6
+HOMEPAGE=https://code.google.com/p/gps-gimp-paint-studio/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2 CC0-1.0 Artistic
+RDEPEND=media-gfx/gimp
+SLOT=0
+SRC_URI=https://github.com/draekko-rand/gps-gimp-paint-studio/releases/download/GPS-v2.0/GPS.2_0.final.zip
+_md5_=a372a5aa3c5210b677f2216577169e9e
