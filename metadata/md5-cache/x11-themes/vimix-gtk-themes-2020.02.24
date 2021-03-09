@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=x11-libs/gtk+:3 x11-themes/gtk-engines x11-themes/gtk-engines-murrine
+DESCRIPTION=A flat Material Design theme for GTK
+EAPI=7
+HOMEPAGE=https://github.com/vinceliuice/vimix-gtk-themes
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=x11-libs/gtk+:3 x11-themes/gtk-engines x11-themes/gtk-engines-murrine
+SLOT=0
+SRC_URI=https://github.com/vinceliuice/vimix-gtk-themes/archive/2020-02-24.tar.gz -> vimix-gtk-themes-2020-02-24.tar.gz
+_md5_=9f698c7e1c81616a44f50ea0dad90ca5
