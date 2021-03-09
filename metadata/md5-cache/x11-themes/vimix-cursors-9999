@@ -1,0 +1,11 @@
+BDEPEND=media-gfx/cairosvg x11-apps/xcursorgen >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=X cursor theme inspired by Material Design
+EAPI=7
+HOMEPAGE=https://github.com/vinceliuice/vimix-cursors
+LICENSE=GPL-3
+PROPERTIES=live
+RESTRICT=strip
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=bd31e037290385d5ac5f74bf331276eb
