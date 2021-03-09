@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=A pretty simple icon theme, derived from Ultra-Flat-Icons, Paper and Flattr
+EAPI=7
+HOMEPAGE=https://drasite.com/flat-remix
+IUSE=dark light
+LICENSE=GPL-3
+PROPERTIES=live
+RESTRICT=strip
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=a7d522c6462d3ad1660bb6534544755e
