@@ -1,0 +1,9 @@
+DEFINED_PHASES=install prepare
+DESCRIPTION=Data files for Tremulous
+EAPI=7
+HOMEPAGE=http://tremulous.net
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://sourceforge/tremulous/tremulous-1.1.0.zip
+_md5_=0e65d111c30596b038323c0ad59c0b0f
