@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst postrm preinst prepare
+DEPEND=dev-qt/qtcore:5 dev-qt/qtmultimedia:5 dev-qt/qtdeclarative:5 virtual/glu dev-qt/qtquickcontrols:5 dev-util/desktop-file-utils >=app-arch/unarr-1.1.0_pre20200131[7z] pdf? ( app-text/poppler:=[qt5] ) qrencode? ( media-gfx/qrencode:= ) dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=A comic reader for cross-platform reading and managing your comic collection
+EAPI=7
+HOMEPAGE=http://www.yacreader.com
+IUSE=pdf qrencode
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=dev-qt/qtcore:5 dev-qt/qtmultimedia:5 dev-qt/qtdeclarative:5 virtual/glu dev-qt/qtquickcontrols:5 dev-util/desktop-file-utils >=app-arch/unarr-1.1.0_pre20200131[7z] pdf? ( app-text/poppler:=[qt5] ) qrencode? ( media-gfx/qrencode:= )
+SLOT=0
+SRC_URI=https://github.com/YACReader/yacreader/archive/e6bc8f38a0280f6dcaf6796d9c451b57d59b93d0.tar.gz -> yacreader-9.6.2_p20200411.tar.gz
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=44d7c79e95eb01cd816f389b03dfa512
