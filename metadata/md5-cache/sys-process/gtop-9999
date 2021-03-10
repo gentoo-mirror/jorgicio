@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=>=net-libs/nodejs-4.0[npm]
+DESCRIPTION=System monitoring dashboard for terminal
+EAPI=7
+HOMEPAGE=https://github.com/aksakalli/gtop
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=>=net-libs/nodejs-4.0[npm]
+SLOT=0
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=6a9d91ba03ee656c6c1120066aa9cb60
