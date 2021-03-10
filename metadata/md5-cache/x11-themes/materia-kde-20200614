@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=kde-plasma/plasma-desktop:5 kvantum? ( x11-themes/kvantum )
+DESCRIPTION=Port of the GTK Materia Theme for Plasma 5 desktop with additions and extras.
+EAPI=7
+HOMEPAGE=https://github.com/PapirusDevelopmentTeam/materia-kde
+IUSE=kvantum
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=kde-plasma/plasma-desktop:5 kvantum? ( x11-themes/kvantum )
+SLOT=0
+SRC_URI=https://github.com/PapirusDevelopmentTeam/materia-kde/archive/20200614.tar.gz -> materia-kde-20200614.tar.gz
+_md5_=3d057e922aa83d4f461548d02bc6e1b4
