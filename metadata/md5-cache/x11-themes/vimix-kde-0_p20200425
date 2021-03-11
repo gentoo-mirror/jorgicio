@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare unpack
+DEPEND=kde-plasma/plasma-desktop:5 kvantum? ( x11-themes/kvantum ) sddm? ( x11-misc/sddm )
+DESCRIPTION=Flat Material Design-like theme for KDE Plasma
+EAPI=7
+HOMEPAGE=https://github.com/vinceliuice/vimix-kde
+IUSE=kvantum sddm
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=kde-plasma/plasma-desktop:5 kvantum? ( x11-themes/kvantum ) sddm? ( x11-misc/sddm )
+SLOT=0
+SRC_URI=https://github.com/vinceliuice/vimix-kde/archive/8ecc8db7657ed9c28aeeaf0e19dc9c7304b1e437.tar.gz -> vimix-kde-0_p20200425.tar.gz
+_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_md5_=15dfe4e517eb1be5d3b4a5ddc2fdfd24
